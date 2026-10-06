@@ -1,0 +1,17 @@
+{
+  "test_round": "0.1",
+  "items": [
+    {
+      "w1": "prutje",
+      "w2": "Prakje",
+      "vondst1": "",
+      "vondst2": ""
+    },
+    {
+      "w1": "fiets",
+      "w2": "koets",
+      "vondst1": "",
+      "vondst2": "koetser"
+    }
+  ]
+}
