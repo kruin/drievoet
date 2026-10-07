@@ -1,1 +1,1 @@
-Drievoet v0.1 — 7 oktober 2026 — De Drievoet: Semantisch, Formantisch, Historisch
+Drievoet v0.2 — 7 oktober 2026 — benoemde JSON-selecties met eigen submap en URL
