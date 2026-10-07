@@ -1,0 +1,11 @@
+{
+  "default": "testronde-0-1",
+  "selections": [
+    {
+      "id": "testronde-0-1",
+      "name": "Testronde 0.1 — 22 paren",
+      "file": "data/selecties/testronde-0-1.json",
+      "description": "De eerder gepubliceerde selectie van 22 corpusparen."
+    }
+  ]
+}
