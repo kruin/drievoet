@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "prakje-prutje",
+      "links": {
+        "woord": "prakje",
+        "K": "pr",
+        "R": "a",
+        "S": "k"
+      },
+      "rechts": {
+        "woord": "prutje",
+        "K": "pr",
+        "R": "u",
+        "S": "t"
+      },
+      "anker": "K",
+      "semantisch": "troep",
+      "historisch": "bronnen nog uitwerken"
+    },
+    {
+      "id": "fiets-koets",
+      "links": {
+        "woord": "fiets",
+        "K": "f",
+        "R": "ie",
+        "S": "ts"
+      },
+      "rechts": {
+        "woord": "koets",
+        "K": "k",
+        "R": "oe",
+        "S": "ts"
+      },
+      "anker": "S",
+      "semantisch": null,
+      "historisch": "bronnen nog uitwerken"
+    }
+  ]
+}
