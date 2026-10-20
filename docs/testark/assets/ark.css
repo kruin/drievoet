@@ -45,3 +45,20 @@ h1:focus{outline:0}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important}}
 
 header nav{flex-wrap:wrap} @media(max-width:700px){header nav{gap:12px}}
+
+
+/* Dekkenproef: ieder dek heeft een voor-, midden- en achterdeel. */
+.deck-map{margin:28px 0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fffcf4}
+.deck-map-heading,.deck-map-row{display:grid;grid-template-columns:140px repeat(3,minmax(0,1fr))}
+.deck-map-heading{background:#e9eee1;font-weight:600}.deck-map-heading>span{padding:16px 20px}
+.deck-map small{display:block;font-size:13px;font-weight:400;color:var(--muted)}
+.deck-map-row{border-top:1px solid var(--line)}.deck-map-row>a{padding:22px 20px;text-decoration:none;min-width:0;overflow-wrap:anywhere}
+.deck-map-row>a:hover{background:#e9eee1}.deck-name{font:26px Georgia,serif;background:#eee7d6}.deck-name small{font-family:system-ui;margin-top:8px}
+.deck-room{border-left:1px solid var(--line);display:flex;flex-direction:column;gap:8px}.deck-room strong{display:none}.deck-room>span{font-size:20px}
+.deck-switch{margin:0 0 22px;gap:8px;justify-content:flex-start}.position-filter{display:flex;gap:8px;flex-wrap:wrap}
+.rooms{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin:24px 0}.rooms:has(>.room:only-child){grid-template-columns:1fr}.room{min-width:0;border:1px solid var(--line);border-radius:12px;background:#eee7d6;padding:12px}
+.room-title{padding:4px 10px 12px}.room-title h2{margin:4px 0;font-size:32px}.room-title h2 span{font:14px system-ui;border:1px solid var(--line);border-radius:50%;padding:4px 9px;vertical-align:middle}
+.room .card{padding:16px;margin-bottom:12px}.room .card:last-child{margin:0}.room .card h3{font-size:24px}.room .card .button{width:100%}
+.room .badge{border-radius:4px;white-space:normal}.krs-line{overflow-wrap:anywhere}.cross-position{border-left:3px solid #aa8a42;padding-left:10px}.ark-illustration{margin-top:28px}.ark-illustration summary{cursor:pointer;padding:12px}
+@media(max-width:850px){.deck-map-heading,.deck-map-row{grid-template-columns:110px repeat(3,minmax(0,1fr))}.deck-map-row>a{padding:16px 12px}.rooms{grid-template-columns:1fr}.room-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.room .card{margin:0}.deck-map-heading>span{padding:14px 10px}}
+@media(max-width:550px){.deck-map-heading{display:none}.deck-map-row{grid-template-columns:1fr}.deck-name{padding:14px 18px!important}.deck-name small{display:inline;margin-left:12px}.deck-room{border-left:0;border-top:1px solid var(--line);display:grid;grid-template-columns:70px 1fr;gap:4px 12px;padding:12px 18px!important}.deck-room strong{display:block}.deck-room small{grid-column:2}.deck-room>span{font-size:16px}.room-cards{grid-template-columns:1fr}.position-filter button{flex:1 1 125px}.room .card .button{width:auto;margin-right:6px}.deck-switch{width:auto}.deck-switch .button{flex:1}.rooms{gap:20px}}

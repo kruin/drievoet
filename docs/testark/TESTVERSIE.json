@@ -1,6 +1,9 @@
 {
-  "version": "Ark-testark-v0.4",
-  "candidate_run": "39488317525",
-  "test_only": true,
-  "production_updated": false
+  "versie": "0.5-dekkenproef",
+  "dekken": [
+    "k",
+    "r"
+  ],
+  "bron": "Bestaande openbare testark en 22-parenselectie",
+  "productie_vervangen": false
 }
