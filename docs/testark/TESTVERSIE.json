@@ -1,9 +1,14 @@
 {
-  "versie": "0.5-dekkenproef",
+  "versie": "0.7-anker-only",
   "dekken": [
     "k",
-    "r"
+    "r",
+    "p",
+    "pr",
+    "sp"
   ],
-  "bron": "Bestaande openbare testark en 22-parenselectie",
-  "productie_vervangen": false
+  "regel": "Alleen anker.formant en anker.positie bepalen de unieke dekplaats.",
+  "status": "Gecontroleerde interfaceproef; ankerinhoud volgt apart",
+  "controle_run": 39519180597,
+  "controle_commit": "5055c42a2fad05042a95154ca8cc86363b69c28e"
 }
