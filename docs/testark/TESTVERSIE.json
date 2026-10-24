@@ -1,5 +1,5 @@
 {
-  "versie": "0.7-anker-only",
+  "versie": "0.8-hutten-zijden-meerlingen",
   "dekken": [
     "k",
     "r",
@@ -7,8 +7,15 @@
     "pr",
     "sp"
   ],
-  "regel": "Alleen anker.formant en anker.positie bepalen de unieke dekplaats.",
-  "status": "Gecontroleerde interfaceproef; ankerinhoud volgt apart",
-  "controle_run": 39519180597,
-  "controle_commit": "5055c42a2fad05042a95154ca8cc86363b69c28e"
+  "overzicht": [
+    "voorschip",
+    "achterschip"
+  ],
+  "zijdes": [
+    "bakboord",
+    "stuurboord"
+  ],
+  "vaste_hutten": 30,
+  "meerlingen_in_selectie": 2,
+  "plaatsing": "Anker + positie + zijde; bestaande proefplaatsingen, zijde voorlopig."
 }

@@ -70,3 +70,20 @@ header nav{flex-wrap:wrap} @media(max-width:700px){header nav{gap:12px}}
 .deck-switch .button{flex:0 1 auto;min-width:max-content;white-space:nowrap}
 
 .krs-filters label{display:flex;flex-direction:column;gap:6px;flex:1;min-width:100px}.krs-filters select{font:inherit;padding:10px;min-height:44px;background:#fffaf0;border:1px solid var(--line);border-radius:6px}
+
+/* Hutten, scheepsdelen en zijden. Het middenschip is geen overzichtskolom. */
+.ship-map .deck-map-heading,.ship-map .deck-map-row{grid-template-columns:140px repeat(2,minmax(0,1fr))}
+.deck-end{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;padding:14px;border-left:1px solid var(--line);min-width:0}
+.side-entry{display:flex;flex-direction:column;gap:7px;padding:12px;border:1px solid var(--line);border-radius:6px;background:#fffcf4;text-decoration:none;min-width:0;overflow-wrap:anywhere}
+.side-entry>span{font-size:13px;font-weight:600}.side-entry>strong{font-size:19px;font-weight:500}.side-entry small{font-size:12px;line-height:1.5}.side-entry:hover{background:#e9eee1}
+.side-entry[data-side=bakboord]{border-top:3px solid #24594f}.side-entry[data-side=stuurboord]{border-top:3px solid #a36c36}.end-mobile{display:none}
+.rooms{grid-template-columns:repeat(2,minmax(0,1fr))}.room-cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.room .card{margin:0}.room .card .button{width:auto}
+.side-room{padding:12px 0;border-top:1px solid var(--line)}.side-room>h3{font:600 17px system-ui;margin:6px 8px 14px}.side-room>h3 span{font-weight:400;margin-left:6px;color:var(--muted)}.side-room[data-cabin-side=bakboord]>h3{color:#24594f}.side-room[data-cabin-side=stuurboord]>h3{color:#8a5524}.side-room[data-cabin-side=open]{background:#e5e2d9;border-radius:6px}
+.cabin .badge{display:block;line-height:1.5}.hut-families{border-top:1px solid var(--line);padding-top:12px}.hut-connections{border:1px solid var(--line);border-left:3px solid var(--green);border-radius:6px;background:#e9eee1;padding:14px 18px;margin:14px 0 22px}.hut-connections p{margin:8px 0;font-size:14px}.hut-connections .button{padding:6px 12px}
+.family-hub{display:flex;justify-content:center;border-bottom:2px solid #809789;margin:36px 0 0;padding-bottom:22px}.family-hub span{background:var(--green);color:white;padding:14px 24px;border-radius:6px}.family-cabins{margin-top:0;padding-top:24px}.family-cabins .card{border-top:3px solid #809789}.family-card h2{font-size:27px}.family-cabins .card{min-width:0}
+.counts-table{border-collapse:collapse;width:100%;max-width:650px}.counts-table td,.counts-table th{border-bottom:1px solid var(--line);padding:12px;text-align:left}.counts-table th:last-child,.counts-table td:last-child{text-align:right}
+@media(max-width:1100px){.room-cards{grid-template-columns:1fr}.ship-map .deck-map-heading,.ship-map .deck-map-row{grid-template-columns:110px repeat(2,minmax(0,1fr))}.deck-end{padding:10px}}
+@media(max-width:750px){.rooms{grid-template-columns:1fr}.room-cards{grid-template-columns:repeat(2,minmax(0,1fr))}.ship-map .deck-map-heading{display:none}.ship-map .deck-map-row{grid-template-columns:1fr}.deck-end{border-left:0;border-top:1px solid var(--line)}.end-mobile{display:block;grid-column:1/-1;font:22px Georgia,serif;padding:6px}.ship-map .deck-name{padding:14px 18px}.ship-map .deck-name small{display:inline;margin-left:12px}.overview-links{grid-template-columns:1fr}}
+@media(max-width:550px){.room-cards{grid-template-columns:1fr}.deck-end{gap:8px;padding:10px}.side-entry{padding:10px}.counts-table td,.counts-table th{padding:10px 6px}.hut-connections{padding:12px}.hut-connections strong{font-size:14px}.family-cabins{grid-template-columns:1fr}}
+
+.overview-links{grid-template-columns:repeat(2,minmax(0,1fr))}@media(max-width:700px){.overview-links{grid-template-columns:1fr}}
