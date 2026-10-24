@@ -1,5 +1,5 @@
 {
-  "versie": "0.9-full-test-meerlingen",
+  "versie": "0.10-full-corpus-meerlingen",
   "dekken": [
     "k",
     "r",
@@ -15,7 +15,7 @@
     "bakboord",
     "stuurboord"
   ],
-  "vaste_hutten": 227,
+  "vaste_hutten": 957,
   "meerlingen_in_selectie": 129,
   "full_test": {
     "bronrecords": 129,
@@ -25,7 +25,11 @@
     "niet_gevonden_paartjerefs": 46,
     "zonder_paartjenummer": 222,
     "lege_bronrecords": 5,
-    "interface_hutten": 227
+    "interface_hutten": 957,
+    "actieve_paartjesrecords": 978,
+    "canonical_paartjes": 964,
+    "dubbele_bronvermeldingen": 21,
+    "bron_hutten": 957
   },
   "plaatsing": "Anker + positie + zijde; bestaande proefplaatsingen, zijde voorlopig."
 }
