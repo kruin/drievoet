@@ -1,5 +1,12 @@
 {
   "versie": "0.10-full-corpus-meerlingen",
+  "selectie": {
+    "kolom": "C",
+    "veld": "OK_01tot10",
+    "minimum": 6,
+    "bronrecords": 159,
+    "hutten": 157
+  },
   "dekken": [
     "k",
     "r",
