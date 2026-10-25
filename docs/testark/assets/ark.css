@@ -106,3 +106,14 @@ html{scroll-padding-bottom:calc(110px + env(safe-area-inset-bottom,0px))}main a,
 
 /* The model is a fixed background; every value above it comes from the active hut. */
 .tripod-pair-caption{color:#fff}.tripod-pair-caption small{color:#e9b35c}.tripod-filled button.tripod-value{background:#111c1bf2;color:#fff;border-color:transparent;box-shadow:none}.tripod-filled button.tripod-value:hover,.tripod-filled button.tripod-value:focus-visible,.tripod-filled button.tripod-value[aria-pressed=true]{background:#111c1b;color:#fff;border-color:#e9b35c}.tripod-value-label{color:#e9b35c}.tripod-score{background:#111c1b;color:#a8e6b0;border-color:transparent}.tripod-score small{color:#fff}
+
+/* Text approval is distinct from the historical source score. */
+.tekst-ok{display:inline-block;font-size:.85rem;padding:.3rem .55rem;border:1px solid currentColor;border-radius:.4rem;margin:.3rem 0;}
+.tekst-columns{display:grid;grid-template-columns:1fr 1fr;gap:1rem;}
+.tekst-columns>div{min-width:0;}.tekst-columns pre{white-space:pre-wrap;overflow-wrap:anywhere;font:inherit;}
+.tekst-editor fieldset{min-width:0;margin:1rem 0;padding:.75rem;}.tekst-editor label{display:block;}.tekst-editor input[type=checkbox]{width:auto;min-height:24px;vertical-align:middle;}
+.tekst-editor #tekst-preview-content{padding:1rem;background:#fff8e8;color:#302719;border:1px solid #937a50;}
+.tekst-ok[data-tekst-status=database]{color:#235d3c;}.tekst-ok[data-tekst-status=klaar]{color:#795214;}
+@media(max-width:600px){.tekst-columns{grid-template-columns:1fr;}.tekst-editor{width:calc(100vw - 20px);max-height:calc(100dvh - 20px);box-sizing:border-box;}}
+
+.tekst-editor p,.tekst-editor a,.tekst-editor pre{overflow-wrap:anywhere;word-break:normal;}
