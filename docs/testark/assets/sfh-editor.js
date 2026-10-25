@@ -8,7 +8,7 @@ window.ArkSfh=(()=>{
  function init(data){for(const x of data.voorstel){base.set(x.nummer,JSON.stringify(x));try{const p=JSON.parse(localStorage.getItem(key(x.nummer))||'null');if(valid(p,x))apply(x,p)}catch{}}}
  function note(x,phase){const text=x.sfh_notities?.[phase];return text?`<section class="sfh-note"><strong>Toelichting</strong><p>${esc(text).replace(/\n/g,'<br>')}</p></section>`:'';}
  function attach(x,opts){
-  const panel=document.createElement('section');panel.className='sfh-actions';panel.innerHTML=`<div class="toolbar"><strong>Bewerken</strong><button data-tekst-review>Teksten voor productie</button><button data-edit-sfh="zin">S · Semantisch</button><button data-edit-sfh="vorm">F · Formantisch</button><button data-edit-sfh="bron">H · Historisch</button></div>${x.sfh_lokaal?'<p class="sfh-local" role="status">Proefwijziging bewaard op dit apparaat.</p>':''}`;
+  const panel=document.createElement('section');panel.className='sfh-actions';panel.innerHTML=`<div class="toolbar"><strong>Bewerken</strong><button data-tekst-review>Hutteksten beoordelen</button><button data-edit-sfh="zin">S · Semantisch</button><button data-edit-sfh="vorm">F · Formantisch</button><button data-edit-sfh="bron">H · Historisch</button></div>${x.sfh_lokaal?'<p class="sfh-local" role="status">Proefwijziging bewaard op dit apparaat.</p>':''}`;
   opts.app.querySelector('.tabbar').after(panel);
   panel.querySelector('[data-tekst-review]').onclick=()=>window.ArkTekst.open(x,opts);
   panel.querySelectorAll('[data-edit-sfh]').forEach(b=>b.onclick=()=>open(x,b.dataset.editSfh,opts));
