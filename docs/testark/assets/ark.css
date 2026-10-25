@@ -117,3 +117,5 @@ html{scroll-padding-bottom:calc(110px + env(safe-area-inset-bottom,0px))}main a,
 @media(max-width:600px){.tekst-columns{grid-template-columns:1fr;}.tekst-editor{width:calc(100vw - 20px);max-height:calc(100dvh - 20px);box-sizing:border-box;}}
 
 .tekst-editor p,.tekst-editor a,.tekst-editor pre{overflow-wrap:anywhere;word-break:normal;}
+
+.ark-introduction{max-width:720px;margin-bottom:2rem;}.ark-introduction p{margin:0 0 1em;}
