@@ -1,5 +1,5 @@
 {
-  "versie": 1,
+  "versie": 2,
   "status": "voorlopig; aangevuld met toelichting door Kruin",
   "voorafgaand": {
     "duur": "ruim tien jaar",
@@ -7,8 +7,10 @@
     "focus_status": "volgt van Kruin"
   },
   "eerste_projectfase": {
-    "eerland": "eerste 200",
-    "kenmerk": "een van de twee woorden heeft t als Kop of Staart"
+    "eerland": "1–200",
+    "kenmerk": "een van de twee woorden heeft t als Kop of Staart",
+    "tranche": "01",
+    "leest": "strak"
   },
   "groei": {
     "versoepelingen": [
@@ -23,6 +25,6 @@
     "interpretatie": "voorlopig volgorde in de tijd, na de t-koppels",
     "status": "Kruin moet de precieze indeling nog onderzoeken"
   },
-  "publicatie": "voldoende onderbouwing bepaalt de tranches; geen automatische vrijgave op basis van ontdekkingsvolgorde",
+  "publicatie": "Tranche 01 omvat de t-koppels 1–200; voldoende onderbouwing per paartje bepaalt welke daarvan al aan bezoekers worden getoond.",
   "bron": "toelichting Kruin, 27 oktober 2026"
 }
